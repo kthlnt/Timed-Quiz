@@ -1,0 +1,150 @@
+body {
+    background-color: #222222; 
+}
+
+#timer {
+    color: #995aa8;
+}
+
+h1, 
+h2 {
+    color:#995aa8;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+a {
+    color: #995aa8;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+a:hover {
+    color: #a584ad;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.btn:focus, .btn:active, .btn:visited {
+    outline: none !important;
+    box-shadow: none !important;
+    background-color: #b681b8;
+}
+
+#finalScore {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+span {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p {
+    color: #995aa8 ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#questionTitle {
+    color: #995aa8;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#answerCheck {
+    font-style: italic;
+    color: #995aa8;
+}
+
+
+
+/* first attempt !!!!
+
+
+
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+/* colors */
+/* :root {
+    --hue-neutral: 265;
+    --hue-wrong: 353;
+    --hue-correct: 146
+} */
+/* general display setup */
+/* body {
+    --hue: var(--hue-neutral);
+    padding: 0;
+    margin: 0;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(var(--hue), 100%, 80%);
+} */
+
+/* when answer right */
+/* body.correct {
+    --hue: var(--hue-correct);
+
+} */
+/* when answer wrong */
+/* body.wrong {
+    --hue: var(--hue-wrong);
+} */
+/* quiz box */
+/* .container {
+    width: 800px;
+    max-width: 80%;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 0 10ox 2px;;
+} */
+/* button layout */
+/* .btn-grid {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 10px;
+    margin : 20px 0;
+} */
+/* button color */
+/* .btn {
+    --hue: var(--hue-neutral);
+    border: 1px solid hsl(var(--hue), 100%, 30%);
+    background-color: hsl(var(--hue), 100%, 60%);
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: white;
+    outline: none;
+} */
+/* btn on hover */
+/* .btn:hover {
+    border-color: black;
+} */
+/* btn when correct */
+/* .btn.correct {
+    --hue: var(--hue-correct);
+    color: black;
+} */
+/* btn when wrong */
+/* .btn.wrong {
+    --hue: var(--hue-wrong);
+} */
+/* start and next stylize */
+/* .start-btn, .next-btn { */
+    /* font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px 20px;
+} */
+/* center controls */
+/* .controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+/* hide other buttons when beginning quiz */
+/* .hide {
+    display: none;
+} */ 
