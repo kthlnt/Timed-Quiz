@@ -75,7 +75,7 @@ questions.sort(function(){
     return 0.5 - Math.random()
 })
 
-// click the start button, timer starts
+// click the start button, timer starts, need to fix timer, it speed up with each quiz
 var totalTime = 151;
 function newQuiz() {
     questionIndex = 0;
