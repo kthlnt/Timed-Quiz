@@ -4,6 +4,8 @@
 
 A timed quiz that saves highscores locally and allows the user to restart the quiz upon finishing. Time is taken off when questions are answered incorrectly. 
 
+https://kthlnt.github.io/Timed-Quiz/
+
 ![code quiz](https://user-images.githubusercontent.com/116473087/208225643-308b6ac5-01bb-4824-b2a2-f627970812e3.png)
 
 ## License
